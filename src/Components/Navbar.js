@@ -58,7 +58,7 @@ const Navbar = () => {
             }
           </ul>
           <div className='menu'>
-            {!click ? <FaBars onClick={toogle} size={25} /> : <FaTimes onClick={toogle} size={25} />}
+            {!click ? <FaBars onClick={toogle} size={25} color='white' /> : <FaTimes onClick={toogle} size={25} color='white'/>}
           </div>
         </div>
     </div>
