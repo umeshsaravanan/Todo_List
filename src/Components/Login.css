@@ -1,0 +1,35 @@
+.login {
+    margin-top: 5vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.sign_in, .log_in {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 50vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: left;
+}
+.sign_in:hover, .log_in:hover {
+    box-shadow: 2px 2px 5px #212122;
+}
+
+@media screen and (max-width : 460px) {
+  
+  .sign_in, .log_in {
+    border: none;
+    width: 80vw;
+    margin-top: 0;
+  }
+}

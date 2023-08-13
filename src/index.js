@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { db } from './Components/FirebaseConfig'
+import App from './App';
+import { collection, onSnapshot } from 'firebase/firestore';
+
+
+const colRef = collection(db,"Todo List")
+onSnapshot(colRef, (snapshot) => {
+  let list = []
+  snapshot.docs.forEach((doc) => {list.push({...doc.data(), id :doc.id})})    
+      console.log(list)
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
