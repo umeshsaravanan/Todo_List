@@ -17,7 +17,11 @@ const Login = () => {
     const ema = email
     const pass = password
     createUserWithEmailAndPassword(auth, ema, pass)
-      .then(() => console.log("user created"))
+      .then(() => {
+        setIsLogedin(true)
+        setEmail('')
+        setPassword('')
+      })
       .catch(err => setError(err.message))
   }
 
@@ -31,7 +35,11 @@ const Login = () => {
       .then(() => {
         navigate('/list')
       })
-      .catch(err => setError(err.message))
+      .catch(err => {
+        setError(err.message)
+        setEmail('')
+        setPassword('')
+      })
   }
   const handleClick = () => {
     setIsLogedin(true)

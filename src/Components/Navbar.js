@@ -34,7 +34,7 @@ const Navbar = () => {
       });
   };
 
-  const toogle = () => {
+  const toggle = () => {
     setClick(!click)
   }
 
@@ -58,7 +58,7 @@ const Navbar = () => {
             }
           </ul>
           <div className='menu'>
-            {!click ? <FaBars onClick={toogle} size={25} color='white' /> : <FaTimes onClick={toogle} size={25} color='white'/>}
+            {!click ? <FaBars onClick={toggle} size={25} color='white' /> : <FaTimes onClick={toggle} size={25} color='white'/>}
           </div>
         </div>
     </div>
