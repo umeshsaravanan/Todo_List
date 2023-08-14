@@ -16,8 +16,8 @@ function App() {
               <Route path="/login" element ={<Login />} />
               <Route path="/list" element ={<TodoList />} />
               <Route path="/add" element ={<Add />} />
-              <Route path="*" element ={<Notfound />} />
             </Route>
+            <Route path="*" element ={<Notfound />} />
         </Routes>
     </BrowserRouter>
   );

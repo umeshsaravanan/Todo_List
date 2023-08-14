@@ -14,7 +14,7 @@ const Notfound = () => {
             <h1 style={{ color: 'red' }}>SORRY</h1>
             <h3>Page Not Found</h3>
             <p>You are requesting for a page which does not exist</p>
-            <Link to='/'> Click here to go Home</Link>
+            <Link to='/' style={{color : 'black'}}> Click here to go Home</Link>
         </div>
     )
 }
