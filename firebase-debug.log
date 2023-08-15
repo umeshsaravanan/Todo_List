@@ -1,13 +1,13 @@
-[debug] [2023-08-15T17:50:43.648Z] ----------------------------------------------------------------------
-[debug] [2023-08-15T17:50:43.651Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2023-08-15T17:50:43.651Z] CLI Version:   12.4.7
-[debug] [2023-08-15T17:50:43.652Z] Platform:      win32
-[debug] [2023-08-15T17:50:43.652Z] Node Version:  v18.12.1
-[debug] [2023-08-15T17:50:43.653Z] Time:          Tue Aug 15 2023 23:20:43 GMT+0530 (India Standard Time)
-[debug] [2023-08-15T17:50:43.653Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T18:06:17.327Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T18:06:17.330Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T18:06:17.331Z] CLI Version:   12.4.7
+[debug] [2023-08-15T18:06:17.331Z] Platform:      win32
+[debug] [2023-08-15T18:06:17.332Z] Node Version:  v18.12.1
+[debug] [2023-08-15T18:06:17.333Z] Time:          Tue Aug 15 2023 23:36:17 GMT+0530 (India Standard Time)
+[debug] [2023-08-15T18:06:17.333Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-08-15T17:50:43.788Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-08-15T17:50:43.790Z] > authorizing via signed-in user (umeshsaravanan2003@gmail.com)
+[debug] [2023-08-15T18:06:17.475Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T18:06:17.476Z] > authorizing via signed-in user (umeshsaravanan2003@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,14 +30,148 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2023-08-15T17:50:49.353Z] Using project from CLI flag: todo-list-9b183
-[debug] [2023-08-15T17:50:49.357Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-9b183 [none]
-[debug] [2023-08-15T17:50:50.125Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-9b183 403
-[debug] [2023-08-15T17:50:50.125Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-9b183 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2023-08-15T17:50:50.126Z] HTTP Error: 403, The caller does not have permission
-[debug] [2023-08-15T17:50:50.549Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2023-08-15T18:06:25.771Z] Using project from CLI flag: todo-list-853a5
+[debug] [2023-08-15T18:06:25.774Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 [none]
+[debug] [2023-08-15T18:06:27.000Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 403
+[debug] [2023-08-15T18:06:27.000Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-08-15T18:06:27.001Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-08-15T18:06:27.279Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
-[error] Error: Failed to get Firebase project todo-list-9b183. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project todo-list-853a5. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-08-15T18:08:39.406Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T18:08:39.409Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T18:08:39.409Z] CLI Version:   12.4.7
+[debug] [2023-08-15T18:08:39.410Z] Platform:      win32
+[debug] [2023-08-15T18:08:39.410Z] Node Version:  v18.12.1
+[debug] [2023-08-15T18:08:39.411Z] Time:          Tue Aug 15 2023 23:38:39 GMT+0530 (India Standard Time)
+[debug] [2023-08-15T18:08:39.411Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T18:08:39.540Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T18:08:39.540Z] > authorizing via signed-in user (umeshsaravanan2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\REACT JS\to_do_list
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T18:08:44.321Z] Using project from CLI flag: todo-list-853a5
+[debug] [2023-08-15T18:08:44.324Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 [none]
+[debug] [2023-08-15T18:08:45.660Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 403
+[debug] [2023-08-15T18:08:45.661Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-08-15T18:08:45.661Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-08-15T18:08:46.011Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-853a5. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-08-15T18:15:50.648Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T18:15:50.651Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T18:15:50.652Z] CLI Version:   12.4.7
+[debug] [2023-08-15T18:15:50.652Z] Platform:      win32
+[debug] [2023-08-15T18:15:50.653Z] Node Version:  v18.12.1
+[debug] [2023-08-15T18:15:50.654Z] Time:          Tue Aug 15 2023 23:45:50 GMT+0530 (India Standard Time)
+[debug] [2023-08-15T18:15:50.654Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T18:15:50.803Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T18:15:50.805Z] > authorizing via signed-in user (umeshsaravanan2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\REACT JS\to_do_list
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T18:15:55.641Z] Using project from CLI flag: todo-list-853a5
+[debug] [2023-08-15T18:15:55.644Z] > refreshing access token with scopes: []
+[debug] [2023-08-15T18:15:55.648Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-15T18:15:55.648Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T18:15:56.190Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-15T18:15:56.190Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T18:15:56.203Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 [none]
+[debug] [2023-08-15T18:15:56.945Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 403
+[debug] [2023-08-15T18:15:56.946Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-08-15T18:15:56.946Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-08-15T18:15:57.276Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-853a5. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-08-15T18:17:09.161Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T18:17:09.165Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T18:17:09.166Z] CLI Version:   12.4.7
+[debug] [2023-08-15T18:17:09.167Z] Platform:      win32
+[debug] [2023-08-15T18:17:09.168Z] Node Version:  v18.12.1
+[debug] [2023-08-15T18:17:09.169Z] Time:          Tue Aug 15 2023 23:47:09 GMT+0530 (India Standard Time)
+[debug] [2023-08-15T18:17:09.170Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T18:17:09.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T18:17:09.377Z] > authorizing via signed-in user (umeshsaravanan2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\REACT JS\to_do_list
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T18:17:14.365Z] Using project from CLI flag: todo-list-853a5
+[debug] [2023-08-15T18:17:14.371Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 [none]
+[debug] [2023-08-15T18:17:15.301Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 403
+[debug] [2023-08-15T18:17:15.301Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-853a5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-08-15T18:17:15.302Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-08-15T18:17:15.777Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-853a5. Please make sure the project exists and your account has permission to access it.
