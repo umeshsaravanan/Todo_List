@@ -5,7 +5,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import Home from '../Routes/Home';
 const ProtectedRoutes = () => {
 
-    const [isAuth, SetIsAuth] = useState(false)
+    const [isAuth, SetIsAuth] = useState(true)
     const a = auth
     useEffect(() => {
       const unsubscribe = onAuthStateChanged(a, (user) => {
