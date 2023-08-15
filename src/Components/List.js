@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import { db } from './FirebaseConfig'
-import { collection, deleteDoc, doc, getDoc, onSnapshot, orderBy, query } from 'firebase/firestore'
+import { collection, deleteDoc, doc, onSnapshot, orderBy, query } from 'firebase/firestore'
 import { FaCheckSquare, FaRegSquare } from 'react-icons/fa'
 import { ClipLoader } from 'react-spinners'
 import './List.css'
@@ -31,7 +31,7 @@ const List = () => {
         return () => {
             unsubscribe();
         };
-    },[]);
+    },[colRef]);
 
     const handleItemClick = (index) => {
         const updatedCheckList = [...checkList];
@@ -42,7 +42,9 @@ const List = () => {
     const handleDelete = (id) =>{
         const docRef = doc(db,"Todo List",id)
 
-        deleteDoc(docRef)
+        deleteDoc(docRef).then(() => {
+            setError("Error Occured")
+        })
     }
 
     return (
