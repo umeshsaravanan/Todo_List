@@ -1,7 +1,6 @@
 .add {
     margin: 40vh auto;
     padding: 20px;
-    border: 2px solid black;
     border-radius: 8px;
     width: 50vw;
     display: flex;
@@ -12,7 +11,7 @@
     align-items: left;
     font-weight: bold;
 }
-.add:hover {
+.add{
     box-shadow: 2px 2px 5px #212122;
 }
 @media screen and (max-width : 460px) {

@@ -2,13 +2,10 @@
     color: black;
     width: 50%;
     margin: 0 auto;
-    border: 2px solid black;
+    box-shadow: 0px 2px 13px 0px #47474a;
     border-radius: 8px;
     padding: 30px;
     font-weight: bold;
-}
-.list:hover {
-    box-shadow: 2px 2px 5px #212122;
 }
 .listitem {
     display: flex;

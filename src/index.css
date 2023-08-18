@@ -29,6 +29,8 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .submit-button:hover {
@@ -46,6 +48,8 @@ button:hover {
   cursor: pointer;
   font-size: 16px;
   cursor: no-drop;
+  width: 40%;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -75,17 +79,10 @@ ul {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #212122;
-  color: white;
+  background-color: #93939a;
+  color: black;
 }
 
-ul li:hover>a {
-  border-radius: 4px;
-  background-color: aqua;
-  padding: 5px;
-  color: black;
-  font-weight: 500;
-}
  @media screen and (max-width : 460px) {
 
   button {

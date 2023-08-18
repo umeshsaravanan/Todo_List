@@ -46,7 +46,7 @@ const Navbar = () => {
         <div>
           <ul className={click ? "navbar_right active" : "navbar_right"}>
             <li>
-              <Link to='/list'>Todo_List</Link>
+              <Link to='/list'>Todo List</Link>
             </li>
             <li>
               <Link to='/add'>Add</Link>
