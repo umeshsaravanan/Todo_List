@@ -4,9 +4,11 @@ import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 import { db } from './FirebaseConfig'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify'
+import { ClipLoader } from 'react-spinners';
 const Addingnew = () => {
 
     const [List, setList] = useState('');
+    const [isadded , setIsadded ] = useState(true)
     const notify = () => {
         toast.success('Added Successfully', {
             position: "top-right",
@@ -24,16 +26,18 @@ const Addingnew = () => {
         const handleSubmit = (e) => {
             e.preventDefault();
             addNewDocument();   
-            notify()
         };
 
         const addNewDocument = async () => {
             const colRef = collection(db, "Todo List");
+            setIsadded(false)
             try {
                 await addDoc(colRef, {
                     list: List,
                     createdAt : serverTimestamp()
                 }).then(() => {
+                    setIsadded(true)
+                    notify()
                     setList(' ')
                 })
                 
@@ -57,7 +61,7 @@ const Addingnew = () => {
                 <label className='input-label' htmlFor='list'>Task</label>
                 <input className="input-field" type='text' value={List} name='list' onChange={e => setList(e.target.value)} />
             </div>
-            <button className={!List ? 'button_disabled' : 'submit-button'} disabled={!List}>Add</button>
+            <button className={!List ? 'button_disabled' : 'submit-button'} disabled={!List}>{isadded?"Add" : <ClipLoader size={20} />}</button>
         </form>
         <ToastContainer />
     </div>

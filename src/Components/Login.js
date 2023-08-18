@@ -8,7 +8,7 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [username, setUsername] = useState('')
-  const [isLogedin, setIsLogedin] = useState(false)
+  const [isLogedin, setIsLogedin] = useState(true)
   const [error, setError] = useState(null)
 
   const auth = getAuth()

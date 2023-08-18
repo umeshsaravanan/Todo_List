@@ -31,7 +31,7 @@ const List = () => {
         return () => {
             unsubscribe();
         };
-    },[colRef]);
+    },[]);
 
     const handleItemClick = (index) => {
         const updatedCheckList = [...checkList];
