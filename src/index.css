@@ -13,6 +13,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0.8;
   color: black;
+  height: 100vh;
 }
 
 button {
@@ -36,7 +37,10 @@ button {
 .submit-button:hover {
   background-color: #0056b3;
 }
-
+.btn-delete {
+  padding: 2px;
+  height: 25px;
+}
 button:hover {
   background-color: grey;
 }
@@ -79,7 +83,7 @@ ul {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #93939a;
+  background-color: #e9edf9;
   color: black;
   outline : none;
 }

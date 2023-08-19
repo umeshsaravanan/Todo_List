@@ -31,7 +31,7 @@ const List = () => {
         return () => {
             unsubscribe();
         };
-    },[]);
+    });
 
     const handleItemClick = (index) => {
         const updatedCheckList = [...checkList];
@@ -62,7 +62,7 @@ const List = () => {
                             }
                         </div>
                         <p className='checklistitem'>{item.list}</p>
-                        <button onClick={() => handleDelete(item.id)}>delete</button>
+                        <button onClick={() => handleDelete(item.id)} className='btn-delete'>delete</button>
                     </div>
                 ))}
             </>}
