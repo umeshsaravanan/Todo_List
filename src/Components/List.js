@@ -12,7 +12,7 @@ const List = () => {
     const [checkList, setCheckList] = useState([]);
 
     const colRef = collection(db, "Todo List")
-    const q = query(colRef, orderBy('createdAt','desc'))
+    const q = query(colRef, orderBy('createdAt'))
     let list = []
     onSnapshot(q, (snapshot) => {
         snapshot.docs.forEach(doc => {
